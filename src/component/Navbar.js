@@ -1,5 +1,6 @@
 import react from "react";
-import nepgear from "../img/Nepgear_PP.jpg";
+import nepgear from "../img/Shizuku.jpg";
+import "./Navbar.css";
 
 const Menu = () => {
   return (
@@ -9,13 +10,13 @@ const Menu = () => {
     >
       <div class="navbar-nav ">
         <a class="nav-link" aria-current="page" href="#">
-          Identity
+          IDENTITY
         </a>
         <a class="nav-link" href="#">
-          Skill
+          SKILL
         </a>
         <a class="nav-link" href="#">
-          Experience
+          EXPERIENCE
         </a>
       </div>
     </div>

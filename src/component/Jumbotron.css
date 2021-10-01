@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+
+body {
+  font-family: "Kaushan Script", cursive;
+}
+
+#jumbotron {
+  background-image: url("../img/Elaina_Wallpaper_LI.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#truepage {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#photo {
+  display: flex;
+  justify-content: center;
+}
+
+#photo img {
+  border-radius: 50%;
+  width: 90%;
+  min-width: 250px;
+  /* max-width: 350px; */
+}
+
+#identity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#sometext {
+  margin-top: 4px;
+  width: 95%;
+  text-align: center;
+}
+
+#quote {
+  font-family: "Dancing Script", cursive;
+  font-size: 1.5rem;
+}
