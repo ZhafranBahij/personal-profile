@@ -1,6 +1,6 @@
 import react from "react";
-import nepgear from "../img/Shizuku.jpg";
-import "./Navbar.css";
+import nepgear from "../../img/Shizuku.jpg";
+import "../css/Navbar.css";
 
 const Menu = () => {
   return (
@@ -9,10 +9,10 @@ const Menu = () => {
       id="navbarNavAltMarkup"
     >
       <div class="navbar-nav ">
-        <a class="nav-link" aria-current="page" href="#">
+        <a class="nav-link" href="#jumbotron">
           IDENTITY
         </a>
-        <a class="nav-link" href="#">
+        <a class="nav-link" href="#skill">
           SKILL
         </a>
         <a class="nav-link" href="#">

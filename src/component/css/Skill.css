@@ -1,0 +1,34 @@
+#skill {
+  height: 100vh;
+  background-image: url("../../img/NepBlack.jpg");
+}
+
+#skill02 {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#skill02 h1 {
+  font-family: "Kaushan Script", cursive;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+#frontend h2 {
+  font-family: "Kaushan Script", cursive;
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+#cpulogo {
+  display: flex;
+  justify-content: center;
+  font-size: 200px;
+}
+
+#frontend #x {
+  display: flex;
+  justify-content: center;
+}
