@@ -14,9 +14,11 @@ const Identity = () => {
   return (
     <div id="identity" class="col-12 col-md-8 col-sm-6">
       <div id="sometext">
-        <h2 id="myname">RAINFOG MUZABA</h2>
+        <h2 id="myname" className="pb-0 pt-2">
+          RAINFOG MUZABA
+        </h2>
         <hr />
-        <div id="quote">
+        <div id="quote" className="mb-5 pb-5">
           I'm just a normal people who likes anime and JRPG game. However, i
           want to prove that my hobbies can bring myself to be better. So, i'll
           create some creation that to prove it

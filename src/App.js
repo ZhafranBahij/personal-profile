@@ -5,6 +5,7 @@ import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
 import Navbar from "./component/js/Navbar.js";
 import Jumbotron from "./component/js/Jumbotron.js";
 import Skill from "./component/js/Skill.js";
+import Experience from "./component/js/Experience.js";
 
 const Fusion = () => {
   return (
@@ -12,6 +13,7 @@ const Fusion = () => {
       <Navbar />
       <Jumbotron />
       <Skill />
+      <Experience />
     </div>
   );
 };

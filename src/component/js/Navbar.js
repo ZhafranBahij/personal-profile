@@ -15,7 +15,7 @@ const Menu = () => {
         <a class="nav-link" href="#skill">
           SKILL
         </a>
-        <a class="nav-link" href="#">
+        <a class="nav-link" href="#experience">
           EXPERIENCE
         </a>
       </div>

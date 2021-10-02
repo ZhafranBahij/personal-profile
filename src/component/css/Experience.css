@@ -1,0 +1,21 @@
+#experience {
+  background-image: url("../../img/Elaina_Wallpaper_LI.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#page {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: black;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(200px, 1fr));
+  /* grid-template-columns: 1fr 1fr 1fr; */
+}
+
+#page img {
+  height: 200px;
+  min-width: 200px;
+  justify-self: center;
+}

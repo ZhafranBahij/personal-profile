@@ -16,9 +16,9 @@
 }
 
 #frontend h2 {
-  font-family: "Kaushan Script", cursive;
   display: flex;
   justify-content: center;
+  font-family: "Kaushan Script", cursive;
   font-size: 2rem;
 }
 
@@ -26,6 +26,12 @@
   display: flex;
   justify-content: center;
   font-size: 200px;
+}
+
+@media screen and (max-width: 768px) {
+  #cpulogo {
+    display: none;
+  }
 }
 
 #frontend #x {
