@@ -21,7 +21,7 @@ const Identity = () => {
         <div id="quote" className="mb-5 pb-5">
           I'm just a normal people who likes anime and JRPG game. However, i
           want to prove that my hobbies can bring myself to be better. So, i'll
-          create some creation that to prove it
+          create some creation to prove it
         </div>
       </div>
     </div>

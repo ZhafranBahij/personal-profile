@@ -9,13 +9,42 @@
   background-color: rgba(0, 0, 0, 0.5);
   color: black;
   height: 100vh;
-  display: grid;
-  grid-template-columns: repeat(3, minmax(200px, 1fr));
-  /* grid-template-columns: 1fr 1fr 1fr; */
 }
 
-#page img {
-  height: 200px;
+#pagetext {
+  font-family: "Kaushan Script", cursive;
+  display: grid;
+  justify-content: center;
+}
+
+#pageimg {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 375px);
+  row-gap: 20px;
+  justify-content: center;
+}
+
+#pageimg img {
+  height: 150px;
   min-width: 200px;
   justify-self: center;
+}
+
+@media screen and (max-width: 768px) {
+  .img-4,
+  .img-5,
+  .img-6,
+  .img-7,
+  .img-8,
+  .img-9 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .img-7,
+  .img-8,
+  .img-9 {
+    display: none;
+  }
 }
