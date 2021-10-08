@@ -17,8 +17,18 @@ const PageText = () => {
 };
 
 const PageImage = () => {
+  let delay = 50;
   const image = img_parts.map((img_part) => {
-    return <img src={template} alt="Placeholder" className={img_part} />;
+    delay += 100;
+    return (
+      <img
+        src={template}
+        alt="Placeholder"
+        className={img_part}
+        data-aos="flip-left"
+        data-aos-delay={delay}
+      />
+    );
   });
 
   return <div id="pageimg">{image}</div>;

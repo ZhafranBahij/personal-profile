@@ -4,7 +4,11 @@ import "../css/Skill.css";
 
 const FrontEnd = () => {
   return (
-    <div id="frontend" className="col-12 col-md-6 mb-5 mb-md-0">
+    <div
+      id="frontend"
+      className="col-12 col-md-6 mb-5 mb-md-0"
+      data-aos="zoom-in-right"
+    >
       <h2>Front End Development</h2> <br />
       <i id="cpulogo" class="bi bi-laptop pb-4"></i>
       <div id="x">
@@ -22,7 +26,12 @@ const FrontEnd = () => {
 
 const BackEnd = () => {
   return (
-    <div id="frontend" className="col-12 col-md-6">
+    <div
+      id="frontend"
+      className="col-12 col-md-6"
+      data-aos="zoom-in-left"
+      data-aos-delay="750"
+    >
       <h2>Back End Development</h2> <br />
       <i id="cpulogo" class="bi bi-cpu pb-4 collapse"></i>
       <div id="x">

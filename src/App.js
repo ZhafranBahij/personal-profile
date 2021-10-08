@@ -6,6 +6,8 @@ import Navbar from "./component/js/Navbar.js";
 import Jumbotron from "./component/js/Jumbotron.js";
 import Skill from "./component/js/Skill.js";
 import Experience from "./component/js/Experience.js";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Fusion = () => {
   return (
@@ -21,5 +23,8 @@ const Fusion = () => {
 function App() {
   return <Fusion />;
 }
-
+AOS.init({
+  duration: 750,
+  once: false,
+});
 export default App;

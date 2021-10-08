@@ -4,15 +4,20 @@ import "../css/Jumbotron.css";
 
 const MyImage = () => {
   return (
-    <div id="photo" class=" col-12 col-md-4 col-sm-6 ">
-      <img src={nepgear} alt="nepgear" />
+    <div id="photo" class=" col-12 col-md-4 col-sm-6 " data-aos="fade-right">
+      <img src={nepgear} alt="Shizuku" />
     </div>
   );
 };
 
 const Identity = () => {
   return (
-    <div id="identity" class="col-12 col-md-8 col-sm-6">
+    <div
+      id="identity"
+      class="col-12 col-md-8 col-sm-6"
+      data-aos="fade-left"
+      data-aos-delay="750"
+    >
       <div id="sometext">
         <h2 id="myname" className="pb-0 pt-2">
           RAINFOG MUZABA

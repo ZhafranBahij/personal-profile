@@ -1,3 +1,3 @@
-# Just Normal Personal Profile
+# Personal Profile
 
-Well,
+Well, if you want to know me, [check this]()
