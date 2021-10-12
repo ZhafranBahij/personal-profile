@@ -31,20 +31,20 @@
 }
 
 @media screen and (max-width: 768px) {
-  .img-4,
-  .img-5,
-  .img-6,
-  .img-7,
-  .img-8,
-  .img-9 {
+  .img4,
+  .img5,
+  .img6,
+  .img7,
+  .img8,
+  .img9 {
     display: none;
   }
 }
 
 @media screen and (max-width: 1200px) {
-  .img-7,
-  .img-8,
-  .img-9 {
+  .img7,
+  .img8,
+  .img9 {
     display: none;
   }
 }

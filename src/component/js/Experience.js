@@ -1,11 +1,23 @@
 import react from "react";
-import template from "../../img/Elaina_Wallpaper_LI.jpg";
 import "../css/Experience.css";
 
-let img_parts = ["img-1"];
+//* BUAT IMPORT IMAGE SECARA MASSAL
+function importAll(r) {
+  let images = {};
+  r.keys().forEach((item, index) => {
+    images[item.replace("./", "")] = r(item);
+  });
+  return images;
+}
+const photoProject = importAll(
+  require.context("../project_image", false, /\.(png|jpe?g|svg)$/)
+);
 
-for (let i = 2; i <= 9; i++) {
-  img_parts.push(`img-${i}`);
+//* MEMBERIKAN NAMA KELAS
+let img_parts = ["img1"];
+
+for (let i = 2; i <= 8; i++) {
+  img_parts.push(`img${i}`);
 }
 
 const PageText = () => {
@@ -20,14 +32,18 @@ const PageImage = () => {
   let delay = 50;
   const image = img_parts.map((img_part) => {
     delay += 100;
+
+    //* photoProject buat mengecek huehehe
     return (
-      <img
-        src={template}
-        alt="Placeholder"
-        className={img_part}
-        data-aos="flip-left"
-        data-aos-delay={delay}
-      />
+      <a href="#">
+        <img
+          src={photoProject[`${img_part}.png`].default}
+          alt="Placeholder"
+          className={img_part}
+          data-aos="flip-left"
+          data-aos-delay={delay}
+        />
+      </a>
     );
   });
 

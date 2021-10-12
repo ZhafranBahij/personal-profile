@@ -1,11 +1,11 @@
-import nepgear from "../../img/Shizuku.jpg";
+import profile from "../../img/Zhafran.jpeg";
 import react from "react";
 import "../css/Jumbotron.css";
 
 const MyImage = () => {
   return (
     <div id="photo" class=" col-12 col-md-4 col-sm-6 " data-aos="fade-right">
-      <img src={nepgear} alt="Shizuku" />
+      <img src={profile} alt="Shizuku" />
     </div>
   );
 };
@@ -20,13 +20,13 @@ const Identity = () => {
     >
       <div id="sometext">
         <h2 id="myname" className="pb-0 pt-2">
-          RAINFOG MUZABA
+          M. Zhafran Bahij
         </h2>
         <hr />
         <div id="quote" className="mb-3 pb-3">
-          I'm just a normal people who likes anime and JRPG game. However, i
-          want to prove that my hobbies can bring myself to be better. So, i'll
-          create some creation to prove it
+          Hello fellas! I'm a undergraduate Computer Science from State
+          University of Jakarta. I've some experience in front-end development.
+          Well, check this web if you wanna know about me.
         </div>
         <div id="sosmed">
           <a href="https://github.com/ZhafranBahij">

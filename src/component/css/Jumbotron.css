@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 #jumbotron {
   background-image: url("../../img/Elaina_Wallpaper_LI.jpg");
@@ -48,8 +49,8 @@
 }
 
 #quote {
-  font-family: "Dancing Script", cursive;
-  font-size: 1.5rem;
+  font-family: "Roboto", cursive;
+  font-size: 1rem;
 }
 
 #sosmed .bi {

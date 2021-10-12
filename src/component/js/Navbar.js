@@ -1,5 +1,5 @@
 import react from "react";
-import nepgear from "../../img/Shizuku.jpg";
+import profile from "../../img/Zhafran.jpeg";
 import "../css/Navbar.css";
 
 const Menu = () => {
@@ -42,7 +42,7 @@ const ButtonActivate = () => {
 const ProfileImage = () => {
   return (
     <a class="navbar-brand" href="#">
-      <img src={nepgear} alt="Nepgear" width="50" height="50" />
+      <img src={profile} alt="profile" width="50" height="50" />
     </a>
   );
 };

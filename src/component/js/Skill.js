@@ -17,7 +17,7 @@ const FrontEnd = () => {
           <li>CSS3 and CSS Grid</li>
           <li>Javascript and EcmaScript 6</li>
           <li>Bootstrap 5</li>
-          <li>React JS (Not Perfectly)</li>
+          <li>React JS</li>
         </ul>
       </div>
     </div>
@@ -32,7 +32,7 @@ const BackEnd = () => {
       data-aos="zoom-in-left"
       data-aos-delay="750"
     >
-      <h2>Back End Development</h2> <br />
+      <h2>Framework Specialist</h2> <br />
       <i id="cpulogo" class="bi bi-cpu pb-4 collapse"></i>
       <div id="x">
         <ul>
