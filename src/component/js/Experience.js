@@ -28,6 +28,18 @@ const PageText = () => {
   );
 };
 
+//* Memberikan link
+const myLink = {
+  img1: "https://zhafranbahij.github.io/zero-note/",
+  img2: "https://zhafranbahij.github.io/fran-gallery/08_LandingPage.html",
+  img3: "#",
+  img4: "https://zhafranbahij.github.io/article-wtih-animation/",
+  img5: "https://zhafranbahij.github.io/fran-bmiapp/",
+  img6: "https://zhafranbahij.github.io/Simple-Run/",
+  img7: "https://zhafranbahij.github.io/Bookshelf/",
+  img8: "https://zhafranbahij.github.io/calculator-app/",
+};
+
 const PageImage = () => {
   let delay = 50;
   const image = img_parts.map((img_part) => {
@@ -35,7 +47,7 @@ const PageImage = () => {
 
     //* photoProject buat mengecek huehehe
     return (
-      <a href="#">
+      <a href={myLink[img_part]}>
         <img
           src={photoProject[`${img_part}.png`].default}
           alt="Placeholder"
