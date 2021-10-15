@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/personal-profile/static/css/main.8ce08cc0.chunk.css",
+    "main.js": "/personal-profile/static/js/main.ac40eeec.chunk.js",
+    "main.js.map": "/personal-profile/static/js/main.ac40eeec.chunk.js.map",
+    "runtime-main.js": "/personal-profile/static/js/runtime-main.736b5a4b.js",
+    "runtime-main.js.map": "/personal-profile/static/js/runtime-main.736b5a4b.js.map",
+    "static/css/2.a8b97ca7.chunk.css": "/personal-profile/static/css/2.a8b97ca7.chunk.css",
+    "static/js/2.82fd35e2.chunk.js": "/personal-profile/static/js/2.82fd35e2.chunk.js",
+    "static/js/2.82fd35e2.chunk.js.map": "/personal-profile/static/js/2.82fd35e2.chunk.js.map",
+    "static/js/3.f77aa7b6.chunk.js": "/personal-profile/static/js/3.f77aa7b6.chunk.js",
+    "static/js/3.f77aa7b6.chunk.js.map": "/personal-profile/static/js/3.f77aa7b6.chunk.js.map",
+    "index.html": "/personal-profile/index.html",
+    "static/css/2.a8b97ca7.chunk.css.map": "/personal-profile/static/css/2.a8b97ca7.chunk.css.map",
+    "static/css/main.8ce08cc0.chunk.css.map": "/personal-profile/static/css/main.8ce08cc0.chunk.css.map",
+    "static/js/2.82fd35e2.chunk.js.LICENSE.txt": "/personal-profile/static/js/2.82fd35e2.chunk.js.LICENSE.txt",
+    "static/media/Experience.css": "/personal-profile/static/media/Elaina_Wallpaper_LI.765994b2.jpg",
+    "static/media/Skill.css": "/personal-profile/static/media/NepBlack.85aac3cd.jpg",
+    "static/media/Zhafran.2da47772.jpeg": "/personal-profile/static/media/Zhafran.2da47772.jpeg",
+    "static/media/bootstrap-icons.css": "/personal-profile/static/media/bootstrap-icons.dfd0ea12.woff2",
+    "static/media/img1.png": "/personal-profile/static/media/img1.0082bc88.png",
+    "static/media/img2.png": "/personal-profile/static/media/img2.f45191d2.png",
+    "static/media/img3.png": "/personal-profile/static/media/img3.b68cdac5.png",
+    "static/media/img4.png": "/personal-profile/static/media/img4.2c482fab.png",
+    "static/media/img5.png": "/personal-profile/static/media/img5.e9cb0a97.png",
+    "static/media/img6.png": "/personal-profile/static/media/img6.89d4008e.png",
+    "static/media/img7.png": "/personal-profile/static/media/img7.f4d8876e.png",
+    "static/media/img8.png": "/personal-profile/static/media/img8.90be7aff.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.736b5a4b.js",
+    "static/css/2.a8b97ca7.chunk.css",
+    "static/js/2.82fd35e2.chunk.js",
+    "static/css/main.8ce08cc0.chunk.css",
+    "static/js/main.ac40eeec.chunk.js"
+  ]
+}
