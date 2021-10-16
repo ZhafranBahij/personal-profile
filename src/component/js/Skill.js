@@ -32,7 +32,7 @@ const BackEnd = () => {
       data-aos="zoom-in-left"
       data-aos-delay="750"
     >
-      <h2>Framework Specialist</h2> <br />
+      <h2>Back End Development</h2> <br />
       <i id="cpulogo" class="bi bi-cpu pb-4 collapse"></i>
       <div id="x">
         <ul>
